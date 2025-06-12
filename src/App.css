@@ -1,0 +1,45 @@
+*{
+  padding: 0;margin: 0;
+}
+
+.weatherimage{
+  background: url("https://cdn.pixabay.com/photo/2024/02/08/14/13/sky-8561169_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.container{
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(40, 151, 207, 0.5);
+  border-radius: 5px;
+  margin-left: 100px;
+  
+}
+.inputbox{
+  padding: 10px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: rgb(243, 241, 241);
+}
+
+button{
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  border-radius: 3px;
+  color: blue;
+}
+.details{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 40px;
+  color: white;
+}
